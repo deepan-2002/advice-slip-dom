@@ -6,7 +6,7 @@ divEl.style.display = 'none'
 const ADVICE_URL = 'https://api.adviceslip.com/advice'
 
 refreshBtn.addEventListener('click',()=>{
-    window.location.href = '/'
+    window.location.href = './index.html'
 })
 
 const fetchData = async () => {
