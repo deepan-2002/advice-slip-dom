@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: '/advice-slip-dom/'
+  base: '/advice-slip-dom/',
   //   build: {
   //     rollupOptions: {
   //       input: {
@@ -9,4 +9,7 @@ export default defineConfig({
   //       },
   //     },
   //   },
+  build: {
+    target: "ES2022", // <--------- ✅✅✅✅✅✅
+  },
 });
